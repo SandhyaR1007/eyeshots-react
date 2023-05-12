@@ -1,0 +1,20 @@
+:root {
+  --theme-color: #fcf5e7;
+  --primary-text-color: #252525;
+  --secondary-text-color: #807c77;
+  --black-color: #000000;
+  --white-color: #ffffff;
+
+  --font-xs: 0.75rem;
+  --font-s: 0.875rem;
+  --font-m: 1rem;
+  --font-l: 1.125rem;
+  --font-xl: 1.5rem;
+  --font-xxl: 2rem;
+  --font-xxxl: 3rem;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
