@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --theme-color: #fcf5e7;
   --primary-text-color: #252525;
