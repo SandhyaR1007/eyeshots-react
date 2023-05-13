@@ -22,3 +22,10 @@ body {
 .font-josephin {
   font-family: "Josefin Sans", sans-serif;
 }
+.custom-bg-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(226, 169, 45, 1) 0%,
+    rgba(148, 62, 14, 1) 100%
+  );
+}
