@@ -3,6 +3,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import { CiSearch } from "react-icons/ci";
 import { RxHamburgerMenu } from "react-icons/rx";
 import defaultUser from "@/assets/defaultUser.png";
+import MenuDropdown from "./MenuDropdown";
 
 const Navbar = () => {
   return (
@@ -38,8 +39,9 @@ const Navbar = () => {
             <HiOutlineShoppingBag />
           </li>
         </ul>
-        <section className="md:hidden cursor-pointer ">
+        <section className="md:hidden cursor-pointer relative">
           <RxHamburgerMenu className="text-lg" />
+          <MenuDropdown />
         </section>
       </div>
       <section className="sm:hidden  flex items-center  mt-4 bg-[#E7E1D1] px-3 rounded-full text-sm">
