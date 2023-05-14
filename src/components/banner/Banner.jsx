@@ -4,7 +4,7 @@ import bannerImg from "@/assets/bannerImg.png";
 
 const Banner = () => {
   return (
-    <main className=" flex justify-between items-center py-4 my-5 font-josephin relative">
+    <main className=" flex justify-between items-center py-3 mb-5 font-josephin relative">
       <section className="max-w-xl mx-auto sm:mx-0  w-full p-3  lg:w-1/3">
         <h1 className="text-8xl  md:text-7xl lg:text-8xl font-semibold  py-3 w-full ">
           Glasses & Lens
@@ -22,8 +22,8 @@ const Banner = () => {
           </button>
         </section>
       </section>
-      <section className="hidden lg:block w-1/2">
-        <img src={bannerImg} alt="bannerImg" className="w-full h-full" />
+      <section className="hidden w-1/2 lg:flex justify-end">
+        <img src={bannerImg} alt="bannerImg" className="w-2/3 h-full" />
       </section>
     </main>
   );
