@@ -7,7 +7,7 @@ import MenuDropdown from "./MenuDropdown";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-col sm:flex-row p-4 max-w-screen mb-3">
+    <nav className="flex flex-col sm:flex-row py-4 max-w-screen mb-3">
       <div className="flex justify-between w-full items-center">
         <section className="relative flex">
           <img
