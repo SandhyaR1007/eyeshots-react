@@ -31,10 +31,10 @@ const Navbar = () => {
         </section>
 
         <ul className=" hidden md:flex justify-between text-2xl ">
-          <li className="bg-gray-200 p-2 rounded-full hover:bg-yellow-800 hover:text-white cursor-pointer mx-2">
+          <li className="bg-gray-200 p-2 rounded-full hover:bg-yellow-800 hover:text-white cursor-pointer mx-2 transition">
             <BsBookmarkHeart />
           </li>
-          <li className="bg-yellow-500 text-white p-2 rounded-full hover:bg-yellow-800 cursor-pointer mx-2">
+          <li className="bg-yellow-500 text-white p-2 rounded-full hover:bg-yellow-800 cursor-pointer mx-2 transition">
             <HiOutlineShoppingBag />
           </li>
         </ul>
